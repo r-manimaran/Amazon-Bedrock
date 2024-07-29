@@ -1,0 +1,7 @@
+langchain==0.2.11
+boto3
+faiss-cpu
+transformers
+streamlit
+langchain_community
+langsmith==0.1.93
