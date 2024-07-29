@@ -114,6 +114,8 @@ def main():
                 #load the vector store
                 vectorstore = FAISS.load_local(f"githubbook.faiss", bedrock_embeddings, allow_dangerous_deserialization=True)
                 st.write("Vector store loaded successfully")
+    if os.path.exists(f"githubbook.faiss"):
+        st.sidebar.write("Vector store exists")
     llm = create_llm()
     prompt_template = create_prompt_template()
     st.write("You can now ask questions about your documents.")
