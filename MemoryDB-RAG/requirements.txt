@@ -1,0 +1,9 @@
+streamlit==1.39.0
+langchain==0.3.3
+langchain_aws
+langchain-core==0.3.10
+langchain-community==0.3.2
+pandas==2.2.3
+python-dotenv==1.0.1
+redis==5.1.1
+
