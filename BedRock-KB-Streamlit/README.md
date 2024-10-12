@@ -1,5 +1,5 @@
 # RAG App using Amazon BedRock KnowledgeBase and Streamlit
-Key taks here are 
+Key tasks here are 
 1. Upload the pdf file to S3 bucket
 2. Enable/Get access to the AI models in Amazon Bedrock
 3. Create a knowledge base(KB) and use Titan Embedding to embed the pdf file from S3 Datasource
@@ -22,3 +22,12 @@ Key taks here are
 ![alt text](images\image2.png)
 
 ![alt text](images\image-1.png)
+
+## Upload File to S3 using Streamlit
+
+![alt text](images\image4.png)
+
+![alt text](images\image5.png)
+upload to S3 folder (prefix)
+
+![alt text](images\image6.png)
