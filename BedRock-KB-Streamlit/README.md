@@ -8,7 +8,7 @@ Key tasks here are
 6. In the Amazon Bedrock note down the Model ARN which needs to be used in Streamlit app.
 
 ### Model Id and ARN
-![alt text](images\image.png)
+![alt text](images/image.png)
 
 ### Streamlit app
 - pip install the required packages (refer requirements.txt)
@@ -18,29 +18,29 @@ Key tasks here are
 - The response is pass to LLM along with query to generate the required response
 
 ### Streamlit chat
-![alt text](images\image3.png)
-![alt text](images\image2.png)
+![alt text](images/image3.png)
+![alt text](images/image2.png)
 
-![alt text](images\image-1.png)
+![alt text](images/image-1.png)
 
 ## Upload File to S3 using Streamlit
 
-![alt text](images\image4.png)
+![alt text](images/image4.png)
 
-![alt text](images\image5.png)
+![alt text](images/image5.png)
 upload to S3 folder (prefix)
 
-![alt text](images\image6.png)
+![alt text](images/image6.png)
 
 ## Sync KB when Fileupload in S3
 
-![alt text](images\image7.png)
+![alt text](images/image7.png)
 
-![alt text](images\image8.png)
+![alt text](images/image8.png)
 
 ## Configure Trigger in Lambda to auto-sync Datasource in KB
 - When new files are uploaded to S3, this will trigger the lambda function to automatically sync the embeddings to KB.
   
-![alt text](images\image-2.png)
+![alt text](images/image-2.png)
 
-![alt text](images\image9.png)
+![alt text](images/image9.png)
