@@ -31,3 +31,16 @@ Key tasks here are
 upload to S3 folder (prefix)
 
 ![alt text](images\image6.png)
+
+## Sync KB when Fileupload in S3
+
+![alt text](images\image7.png)
+
+![alt text](images\image8.png)
+
+## Configure Trigger in Lambda to auto-sync Datasource in KB
+- When new files are uploaded to S3, this will trigger the lambda function to automatically sync the embeddings to KB.
+  
+![alt text](images\image-2.png)
+
+![alt text](images\image9.png)
