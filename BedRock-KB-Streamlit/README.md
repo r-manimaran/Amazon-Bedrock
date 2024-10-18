@@ -1,4 +1,8 @@
 # RAG App using Amazon BedRock KnowledgeBase and Streamlit
+### Architecture
+
+![alt text](images/BedRock_RAG.png)
+
 Key tasks here are 
 1. Upload the pdf file to S3 bucket
 2. Enable/Get access to the AI models in Amazon Bedrock
